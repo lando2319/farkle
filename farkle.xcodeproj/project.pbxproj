@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC04E59D19E5C5A100F2B950 /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC04E59C19E5C5A100F2B950 /* DieLabel.m */; };
 		CC14C41C19E5BB4B00C2312B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC14C41B19E5BB4B00C2312B /* main.m */; };
 		CC14C41F19E5BB4B00C2312B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC14C41E19E5BB4B00C2312B /* AppDelegate.m */; };
 		CC14C42219E5BB4B00C2312B /* farkle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC14C42019E5BB4B00C2312B /* farkle.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC04E59B19E5C5A100F2B950 /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieLabel.h; sourceTree = "<group>"; };
+		CC04E59C19E5C5A100F2B950 /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieLabel.m; sourceTree = "<group>"; };
 		CC14C41619E5BB4A00C2312B /* farkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = farkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC14C41A19E5BB4B00C2312B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC14C41B19E5BB4B00C2312B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				CC14C42319E5BB4B00C2312B /* ViewController.h */,
 				CC14C42419E5BB4B00C2312B /* ViewController.m */,
 				CC14C42619E5BB4B00C2312B /* Main.storyboard */,
+				CC04E59B19E5C5A100F2B950 /* DieLabel.h */,
+				CC04E59C19E5C5A100F2B950 /* DieLabel.m */,
 				CC14C42919E5BB4B00C2312B /* Images.xcassets */,
 				CC14C42B19E5BB4B00C2312B /* LaunchScreen.xib */,
 				CC14C42019E5BB4B00C2312B /* farkle.xcdatamodeld */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC14C41F19E5BB4B00C2312B /* AppDelegate.m in Sources */,
+				CC04E59D19E5C5A100F2B950 /* DieLabel.m in Sources */,
 				CC14C42219E5BB4B00C2312B /* farkle.xcdatamodeld in Sources */,
 				CC14C42519E5BB4B00C2312B /* ViewController.m in Sources */,
 				CC14C41C19E5BB4B00C2312B /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				CC14C43E19E5BB4B00C2312B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC14C43F19E5BB4B00C2312B /* Build configuration list for PBXNativeTarget "farkleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				CC14C44119E5BB4B00C2312B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
