@@ -23,10 +23,75 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="179" y="289" width="42" height="21"/>
+                                    <rect key="frame" x="16" y="28" width="42" height="21"/>
                                 </variation>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="RTo-hf-c30" appends="YES" id="Goj-m5-01I"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUT-kP-S33">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="117" y="28" width="42" height="21"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hnB-Ul-CqH" appends="YES" id="RUc-OL-XDm"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCB-9M-SWe">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="226" y="28" width="42" height="21"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="nwr-r6-4dw" appends="YES" id="54T-o1-wgt"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGt-MN-UJl">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="98" width="42" height="21"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="R85-vi-hLV" appends="YES" id="CMU-iZ-87i"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tra-Y9-MdX">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="117" y="98" width="42" height="21"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="uou-ol-IcA" appends="YES" id="XNw-mC-2g1"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roz-vY-UxI">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="226" y="98" width="42" height="21"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="5Sx-qa-aCG" appends="YES" id="wlO-p8-cRt"/>
                                 </connections>
                             </label>
                         </subviews>
@@ -35,11 +100,21 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="uSe-bp-GFu"/>
+                                <exclude reference="iUT-kP-S33"/>
+                                <exclude reference="qCB-9M-SWe"/>
+                                <exclude reference="LGt-MN-UJl"/>
+                                <exclude reference="tra-Y9-MdX"/>
+                                <exclude reference="roz-vY-UxI"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="uSe-bp-GFu"/>
+                                <include reference="iUT-kP-S33"/>
+                                <include reference="qCB-9M-SWe"/>
+                                <include reference="LGt-MN-UJl"/>
+                                <include reference="tra-Y9-MdX"/>
+                                <include reference="roz-vY-UxI"/>
                             </mask>
                         </variation>
                     </view>
@@ -48,6 +123,31 @@
                 <tapGestureRecognizer id="RTo-hf-c30" userLabel="Tap Gesture Recognizer (1)">
                     <connections>
                         <action selector="onTapped:" destination="uSe-bp-GFu" id="J8e-VR-2bW"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="hnB-Ul-CqH">
+                    <connections>
+                        <action selector="onTapped:" destination="uSe-bp-GFu" id="Bk1-Mi-LHW"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="nwr-r6-4dw">
+                    <connections>
+                        <action selector="onTapped:" destination="uSe-bp-GFu" id="WUm-AU-CEG"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="R85-vi-hLV">
+                    <connections>
+                        <action selector="onTapped:" destination="uSe-bp-GFu" id="MjO-JY-x6U"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="uou-ol-IcA">
+                    <connections>
+                        <action selector="onTapped:" destination="uSe-bp-GFu" id="oGK-fF-Bgb"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="5Sx-qa-aCG">
+                    <connections>
+                        <action selector="onTapped:" destination="uSe-bp-GFu" id="1kZ-Zv-3PT"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

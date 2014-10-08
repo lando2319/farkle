@@ -12,7 +12,13 @@
 
 - (IBAction)onTapped:(UIGestureRecognizer *)sender {
     NSLog(@"go time");
+
+    UILabel *label = (UILabel *)sender.view;
+    label.backgroundColor = [UIColor redColor];
+    NSLog(@"%@", label.text);
 }
+
+
 
 /*
 // Only override drawRect: if you perform custom drawing.
