@@ -118,6 +118,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="labelOneActual" destination="uSe-bp-GFu" id="Ybh-Qq-aw5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="RTo-hf-c30" userLabel="Tap Gesture Recognizer (1)">

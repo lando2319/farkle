@@ -11,10 +11,12 @@
 @implementation DieLabel
 
 - (IBAction)onTapped:(UIGestureRecognizer *)sender {
-    NSLog(@"go time");
+    int randomNumber = arc4random_uniform(6)+1;
+    NSLog(@"random Number here: %d", randomNumber);
 
     UILabel *label = (UILabel *)sender.view;
-    label.backgroundColor = [UIColor redColor];
+    NSString *stringNumber = [NSString stringWithFormat:@"%d", randomNumber];
+    label.text = stringNumber;
     NSLog(@"%@", label.text);
 }
 

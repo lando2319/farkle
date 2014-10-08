@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "DieLabel.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet DieLabel *labelOneActual;
 
 @end
 
@@ -16,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self.labelOneActual roll];
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {
