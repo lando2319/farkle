@@ -18,7 +18,9 @@
     NSLog(@"%@", label.text);
 }
 
-
+-(void)roll {
+    NSLog(@"roll is happening");
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.
