@@ -94,6 +94,18 @@
                                     <outletCollection property="gestureRecognizers" destination="5Sx-qa-aCG" appends="YES" id="wlO-p8-cRt"/>
                                 </connections>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsP-3j-UO6">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="ROLL!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="115" y="161" width="43" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onButtonPressedActual:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YyZ-Ng-4MO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -105,6 +117,7 @@
                                 <exclude reference="LGt-MN-UJl"/>
                                 <exclude reference="tra-Y9-MdX"/>
                                 <exclude reference="roz-vY-UxI"/>
+                                <exclude reference="LsP-3j-UO6"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -115,11 +128,18 @@
                                 <include reference="LGt-MN-UJl"/>
                                 <include reference="tra-Y9-MdX"/>
                                 <include reference="roz-vY-UxI"/>
+                                <include reference="LsP-3j-UO6"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="labelOneActual" destination="uSe-bp-GFu" id="Ybh-Qq-aw5"/>
+                        <outlet property="label1" destination="uSe-bp-GFu" id="T57-yR-BXu"/>
+                        <outlet property="label2" destination="iUT-kP-S33" id="f7e-Sh-iIM"/>
+                        <outlet property="label3" destination="qCB-9M-SWe" id="Qjg-YX-Fw2"/>
+                        <outlet property="label4" destination="LGt-MN-UJl" id="nSf-2o-4wY"/>
+                        <outlet property="label5" destination="tra-Y9-MdX" id="c0Z-5r-KG3"/>
+                        <outlet property="label6" destination="roz-vY-UxI" id="GeP-ns-Eh2"/>
+                        <outlet property="onRollButtonPressed" destination="LsP-3j-UO6" id="Haf-hm-4tX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
