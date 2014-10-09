@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "DieLabel.h"
 
-@interface ViewController ()
+@interface ViewController () <DieLabelDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton *onRollButtonPressed;
 @property (weak, nonatomic) IBOutlet DieLabel *label1;
@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *label5;
 @property (weak, nonatomic) IBOutlet UILabel *label6;
 @property NSMutableArray *farkleNumbers;
+@property BOOL isHeld;
 
 @end
 
@@ -29,6 +30,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.isHeld = NO;
+
+
 //    self.view.backgroundColor = [UIColor redColor];
 //    self.farkleNumbers = [NSMutableArray array];
 //
@@ -63,9 +67,11 @@
 //    [self.farkleNumbers addObject:@"go time"];
 //    [self.farkleNumbers addObject:@"go to time"];
     NSLog(@"%@", self.farkleNumbers);
-
+    self.die = [[DieLabel alloc] init];
+    self.die.delegate = self;
 
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -110,13 +116,11 @@
                 self.label6.text = stringNumber;
             }
 
-    
-    
     //        NSLog(@"%@", self.farkleNumbers);
     //        NSLog(@"%@", stringNumber);
         }
 
-
+    [self.die roll];
 
 
 }
